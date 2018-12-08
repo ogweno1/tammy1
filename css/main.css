@@ -1,0 +1,68 @@
+/** Variables **/
+/** Sweeping Generalizations **/
+body,
+html {
+  height: 100%; }
+
+/** Main Stuff **/
+#navbar-logo {
+  height: 45px; }
+
+.navbar-nav {
+  margin-top: 7px; }
+
+section#hero {
+  text-align: center;
+  height: 75%; }
+
+section#social-security-disability,
+section#personal-injury,
+footer {
+  background: #5D0249; }
+
+/** Font Modifier Classes **/
+.text-color-primary {
+  color: #5D0249; }
+
+.text-color-white {
+  color: white; }
+
+/** Responsive Overrides **/
+@media (max-width: 34em) {
+  section#hero {
+    height: 30%; }
+
+  #nav-menu {
+    width: 100%; }
+    #nav-menu ul > li {
+      width: 100%;
+      margin-left: 0; } }
+/** Utility Classes **/
+.image-width-contain {
+  max-width: 100%; }
+
+.image-vertical-padded {
+  padding: 1em 0; }
+
+.section-vertical-padded {
+  padding: 2.5em 0; }
+
+.center-parent {
+  position: relative; }
+
+.center-child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.full-width {
+  width: 100%; }
+
+.full-height {
+  height: 100%; }
+
+.horizontal-padding-none {
+  padding-left: 0;
+  padding-right: 0; }
+
+/*# sourceMappingURL=main.css.map */
